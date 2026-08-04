@@ -32,7 +32,7 @@ TypeScriptやReactを用いたモダンなフロントエンド開発、PHPやGo
 - **習得スキル:** フルスタック開発、RAG、ローカルLLM、認証・権限、コンテナ化、クラウド・ネットワーク、セキュリティ設計
 
 ### ✨ [事業所内ポータルサイト](https://github.com/DC-IT-KYOBASHI/portalapp) (個人開発)
-※ [バックエンド用APIリポジトリはこちら](https://github.com/DC-IT-KYOBASHI/portalappsystem)
+※ バックエンド用リポジトリはセキュリティ上の観点から非公開。
 **職務要約:** ReactフロントエンドとPHPバックエンドを分離したポータルを企画から公開まで開発。
 - **業務概要:** SPAとAPIを分離し、利用・管理・保守を考慮した業務効率化サイトを構築。
 - **業務内容:** 要件整理、設計、React/TypeScript実装、PHP API実装、Repositoryパターン、アクセス制御、公開。
