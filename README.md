@@ -11,20 +11,37 @@ TypeScriptやReactを用いたモダンなフロントエンド開発、PHPやGo
 - **2026/05**: 基本情報技術者試験 合格
 
 ## 🚀 代表作 (Featured Projects)
-業務効率化ツールから独自テーマの開発まで、要件に適した技術の組み合わせ・設計を行っています。
-各プロジェクトの詳細なアーキテクチャは、リンク先のREADMEをご覧ください。
+業務効率化ツールから最新技術を用いたシステム開発まで、要件に適した技術の組み合わせと設計を行っています。
 
-### 実務・オフィスコミュニティ開発 (DC-IT-KYOBASHI)
-- ✨ **[DCITアプリ集 (フロントエンド SPA)](https://github.com/DC-IT-KYOBASHI/portalapp)**
-  - **技術**: React + TypeScript + Vite + Tailwind CSS
-  - **概要**: 就労支援の業務効率化を目指した統合ポータルアプリ。コンポーネント指向による機能分離と、`useApi` カスタムフックの導入で非同期通信と例外ハンドリングを共通化。GitHub Pagesへの自動デプロイを構築。
-- ⚙️ **[情報システム部専用ポータル (バックエンド・APIサーバー)](https://github.com/DC-IT-KYOBASHI/portalappsystem) (Private)**
-  - **技術**: PHP 8 + Apache (Lolipop)
-  - **概要**: 上記SPAへデータを提供するRESTful APIサーバー。フロントコントローラパターンによるIPアクセス制御の一元化と、`JsonRepository` (Repositoryパターン) によるCRUD操作のカプセル化を実践。`.htaccess` を活用したディレクトリ保護やCSRF対策など実務レベルのセキュリティ対策を採用。
-- 📋 **[タスク割り当てアプリ](https://github.com/DC-IT-KYOBASHI/taskManager)（Private）**
-  - **概要**: 日常のタスク配分をスムーズにする管理アプリケーション。
+### 📋 [タスク割り当てアプリ](https://github.com/DC-IT-KYOBASHI/taskManager) (実務・チーム開発 / Private)
+**職務要約:** 既存アプリを分析し、仕様書整備とWebサーバーへのデプロイを実施。
+- **業務概要:** ドキュメントや引き継ぎ仕様書がない既存アプリをAI-エージェントでリバースエンジニアリングし、実稼働環境へ移行。
+- **業務内容:** ソースコード分析、システム仕様書・DB定義書作成、ログイン・管理画面・通知メール・問い合わせフォームの設計・構築、リファクタリング。
+- **本人の取り組み:** プログラムをモジュール化し、可読性・保守性・拡張性を向上。ロリポップ!へデプロイ。
+- **開発環境:** PHP、MySQL、ロリポップ!レンタルサーバー、AI-エージェント
+- **チーム規模 / 役割:** 4人 / PL（設計・チーム管理）
+- **習得スキル:** 仕様分析、DB設計、仕様書作成、サーバー運用、リファクタリング、チーム進行管理
 
-### 個人開発 (Personal Projects)
+### 🔐 セキュア・ローカルAIチャットシステム (個人開発)
+**職務要約:** 完全ローカルRAG型AIチャットをフルスクラッチで開発し、OCIへデプロイ。
+- **業務概要:** 外部APIへデータを送信せず、社内文書を検索・参照するAIチャットシステムを構築。
+- **業務内容:** RAG、認証、ユーザー別スレッド分離、SSEストリーミング、監査ログ、Dockerコンテナ化、クラウド移行を実装。
+- **本人の取り組み:** ChromaDB・SQLite、Ollama、Nginx・Tailscale等を組み合わせ、安全な公開環境を構築。
+- **開発環境:** AI-エージェント、React/Vite、Python/FastAPI、ChromaDB、SQLite、Ollama、Docker Compose、OCI ARM/Ubuntu、Nginx、Tailscale、JWT、SSE、Fluent Bit
+- **チーム規模 / 役割:** 個人（学習・開発） / 全行程（PM）
+- **習得スキル:** フルスタック開発、RAG、ローカルLLM、認証・権限、コンテナ化、クラウド・ネットワーク、セキュリティ設計
+
+### ✨ [事業所内ポータルサイト](https://github.com/DC-IT-KYOBASHI/portalapp) (個人開発)
+※ [バックエンド用APIリポジトリはこちら](https://github.com/DC-IT-KYOBASHI/portalappsystem)
+**職務要約:** ReactフロントエンドとPHPバックエンドを分離したポータルを企画から公開まで開発。
+- **業務概要:** SPAとAPIを分離し、利用・管理・保守を考慮した業務効率化サイトを構築。
+- **業務内容:** 要件整理、設計、React/TypeScript実装、PHP API実装、Repositoryパターン、アクセス制御、公開。
+- **本人の取り組み:** 次期担当者が学習・保守しやすい構成を設計し、共通化・モジュール化とセキュリティ対策を実施。
+- **開発環境:** AI-エージェント、React、TypeScript、PHP、API、JSON、GitHub、.htaccess、IP接続制限
+- **チーム規模 / 役割:** 個人（学習・開発） / 全行程（PM）
+- **習得スキル:** フロント／バックエンド分離、API設計、React/TypeScript、PHP、保守性・拡張性を考慮した設計、公開運用
+
+### 🌟 その他の開発 (Other Projects)
 - 🛒 **[PHP EC Site](https://github.com/itkyobashi263-lgtm/php-ec-site)**
   - **技術**: PHP + MySQL (PDO)
   - **概要**: カート機能やセッション管理・パスワードハッシュによるセキュアな認証システムを実践構築したECサイト。
