@@ -18,10 +18,10 @@ TypeScriptやReactを用いたモダンなフロントエンド開発、PHPやGo
 - ✨ **[DCITアプリ集 (フロントエンド SPA)](https://github.com/DC-IT-KYOBASHI/portalapp)**
   - **技術**: React + TypeScript + Vite + Tailwind CSS
   - **概要**: 就労支援の業務効率化を目指した統合ポータルアプリ。コンポーネント指向による機能分離と、`useApi` カスタムフックの導入で非同期通信と例外ハンドリングを共通化。GitHub Pagesへの自動デプロイを構築。
-- ⚙️ **[情報システム部専用ポータル (バックエンド・APIサーバー)](https://github.com/DC-IT-KYOBASHI/portalappsystem)**
+- ⚙️ **[情報システム部専用ポータル (バックエンド・APIサーバー)](https://github.com/DC-IT-KYOBASHI/portalappsystem) (Private)**
   - **技術**: PHP 8 + Apache (Lolipop)
   - **概要**: 上記SPAへデータを提供するRESTful APIサーバー。フロントコントローラパターンによるIPアクセス制御の一元化と、`JsonRepository` (Repositoryパターン) によるCRUD操作のカプセル化を実践。`.htaccess` を活用したディレクトリ保護やCSRF対策など実務レベルのセキュリティ対策を採用。
-- 📋 **[タスク割り当てアプリ](https://github.com/DC-IT-KYOBASHI/taskManager)**
+- 📋 **[タスク割り当てアプリ](https://github.com/DC-IT-KYOBASHI/taskManager)（Private）**
   - **概要**: 日常のタスク配分をスムーズにする管理アプリケーション。
 
 ### 個人開発 (Personal Projects)
